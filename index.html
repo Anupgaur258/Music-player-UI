@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body class="bg-info">
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+                    <a class="navbar-brand" href="#">
+                        <img src="music.png" class="img-fluid rounded"><span
+                            class="display-6 text-warning text-center text-bold">MY
+                            Music</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div class="col-9 float-end text-white">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">TRENDING </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">MUSIC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">BOLLYWOOD</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- //carasal section -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 justify-content-center carausalcontainer">
+                <div class="carausal" style="width: 800px; height: 400px;">
+
+
+
+
+
+
+
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="music1.png" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="music2.png" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="music3.png" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- audio card section -->
+
+
+    <div class=" maincontainer bg-light">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="text-danger display-5 mt-5">
+                        Listen</h1> <span class="text-white display-3 text-info display-3 mt-3">to</span>
+                    <div class="text-dark display-2 text-warning">New Music </div>
+                    <P class="text-dark display-3 mt-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </P>
+
+                </div>
+                <div class="col-6"><img src="right.png" style="width:500px; height: 400px;" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card"><img src="music1.png" class="img-fluid">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h1>Sad song</h1>
+                            <div class="card-text">
+                                <div class="audio">
+                                    <audio controls style="width: 200px;">
+                                        <source src="musicton.mp3" type="audio/ogg">
+
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                                <p>this is a music player and here are many music you can play</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card"><img src="music2.png" class="img-fluid">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h1>Bollywood song</h1>
+                            <div class="card-text">
+                                <div class="audio">
+                                    <audio controls style="width: 200px;">
+                                        <source src="musicton.mp3" type="audio/ogg">
+
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                                <p>this is a music player and here are many music you can play</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card"><img src="music3.png" class="img-fluid">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h1>Arjeet singh song</h1>
+                            <div class="card-text">
+                                <div class="audio"> <audio controls style="width: 200px;">
+                                        <source src="musicton.mp3" type="audio/ogg">
+
+                                        Your browser does not support the audio element.
+                                    </audio></div>
+                                <p>this is a music player and here are many music you can play</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>6
+            </div>
+            <div class="col-lg-3">
+                <div class="card"><img src="music4.png" class="img-fluid">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h1>Badshah song</h1>
+                            <div class="card-text">
+                                <div class="audio"><audio controls style="width: 200px;">
+                                        <source src="musicton.mp3" type="audio/ogg">
+
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                                <p>this is a music player and here are many music you can play</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
